@@ -12,11 +12,9 @@
     "build": "rollup -c",
     "deploy": "gh-pages -d example/build",
     "dev": "rollup -c -w",
-    "format": "prettier --write './*' 'src/**/*' 'example/**/*'",
-    "lint": "eslint 'src/**/*' 'example/src/**/*'",
     "predeploy": "cd example && ./sync-version.js && yarn install && yarn run build",
     "prepare": "yarn run build",
-    "prepublishOnly": "npx tsc && npm run lint && npm run build"
+    "prepublishOnly": "npx tsc && npm run build"
   },
   "dependencies": {
     "react-activity-calendar": "^2.0.2"
