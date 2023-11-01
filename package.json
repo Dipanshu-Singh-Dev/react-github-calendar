@@ -1,11 +1,11 @@
 {
-  "name": "react-github-calendar",
+  "name": "react-github-calendar-dipanshu",
   "version": "4.0.1",
   "description": " A flexible React component to display a GitHub contributions graph",
   "author": "Jonathan Gruber <gruberjonathan@gmail.com>",
   "license": "MIT",
-  "homepage": "https://grubersjoe.github.io/react-github-calendar/",
-  "repository": "grubersjoe/react-github-calendar",
+  "homepage": "https://github.com/Dipanshu-Singh-Dev/react-github-calendar",
+  "repository": "Dipanshu-Singh-Dev/react-github-calendar",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
